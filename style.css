@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.head {
+    background-color: cornflowerblue;
+    height: 100vh;
+    width: 30%;
+}
+
+.body {
+    background-color: brown;
+    width: 70%;
+    position: relative;
+}
+
+.profile {
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.profile h6 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.contactinfo {
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.contactinfo h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.contactinfo i {
+    padding: 10px;
+    margin: 5px;
+}
+
+.icons {
+    margin: 30px 0;
+}
+
+.contactinfo span {
+    text-transform: lowercase;
+}
+
+#phone {
+    color: blue;
+    font-size: 25px;
+}
+
+#email {
+    color: orangered;
+    font-size: 25px;
+}
+
+#linkedin {
+    color: blue;
+    font-size: 25px;
+}
+
+#location {
+    color: red;
+    font-size: 25px;
+}
+
+#github {
+    font-size: 25px;
+    color: black;
+}
+
+#github a {
+    text-decoration: none;
+}
+
+.body h1 {
+    margin: 30px 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.github {
+    text-decoration: none;
+}
+
+.phone {
+    font-size: 20px;
+    color: blue;
+}
+
+.email {
+    color: red;
+    font-size: 20px;
+}
+
+.body p {
+    margin: 10px 60px;
+    text-transform: capitalize;
+}
+
+.language {
+    text-transform: uppercase;
+}
+
+.linked {
+    /* font-size: 18px; */
+    text-decoration: none;
+}
+
+#location {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.body h2 {
+    margin: 30px 60px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.body h3 {
+    margin: 10px 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.body h6 {
+    text-transform: uppercase;
+    margin: 10px 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+strong {
+    position: absolute;
+    right: 2%;
+}
+
+#html {
+    color: orangered;
+}
+
+#css {
+    color: dodgerblue;
+}
+
+#js {
+    color: yellow;
+}
+
+#bs {
+    color: blueviolet;
+}
+
+#react {
+    color: cadetblue;
+}
+
+.skills {
+    color: black;
+    font-size: 18px;
+}
+
+.icon h1 {
+    margin: 50px -100px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.icon i {
+    margin: 50px -30px;
+}
+
+.icon {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head .icon {
+    display: none;
+}
+
+.heading {
+    display: none;
+}
+
+.icones {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .head {
+        background-color: rgb(235, 78, 222);
+        width: 40%;
+    }
+
+    .profile {
+        text-align: center;
+        color: white;
+        padding: 10px 10px;
+    }
+
+    .profile img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .profile h1 {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .profile h6 {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: white;
+    }
+
+    .contactinfo {
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+    .contactinfo h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .contactinfo i {
+        padding: 0 10px;
+    }
+
+    .contactinfo span {
+        padding: 10px 20px;
+        text-transform: lowercase;
+    }
+
+    #phone {
+        color: blue;
+        font-size: 10px;
+    }
+
+    #email {
+        color: rgb(25, 175, 245);
+        font-size: 10px;
+    }
+
+    #linkedin {
+        color: blue;
+        font-size: 10px;
+    }
+
+    #location {
+        color: rgb(10, 33, 165);
+        font-size: 10px;
+    }
+
+    #github {
+        font-size: 10px;
+        color: black;
+    }
+
+    #github a {
+        text-decoration: none;
+    }
+
+    .phone {
+        font-size: 10px;
+        color: blue;
+    }
+
+    .email {
+        color: rgb(9, 52, 194);
+        font-size: 7px;
+    }
+
+    .linked {
+        font-size: 6px;
+    }
+
+    .mani {
+        display: flex;
+    }
+
+    #location {
+        font-size: 8px;
+    }
+
+    .github {
+        font-size: 6px;
+    }
+
+    .body {
+        height: 100vh;
+        background-color: cornflowerblue;
+        width: 60vw;
+    }
+
+    .body h1 {
+        font-size: 14px;
+    }
+
+    .body p {
+        font-size: 10px;
+    }
+
+    .body h2 {
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .body h3 {
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .body h6 {
+        text-transform: uppercase;
+        margin: 10px 60px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .heading {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .body .hidden {
+        display: none;
+    }
+
+    .icones .one {
+        display: flex;
+    }
+
+    .one i {
+        margin: 10px 15px;
+    }
+
+    .one .skills {
+        margin: 10px 20px;
+    }
+
+    .icones {
+        margin: 20px 10px;
+    }
+
+    .icones h5 {
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .skills {
+        font-size: 15px;
+    }
+
+    .icones {
+        display: block;
+    }
+}
